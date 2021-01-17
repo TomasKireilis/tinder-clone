@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    border-bottom: 1px solid red;
+    font-size: 1em;
+}
+.header_logo{
+    object-fit: contain;
+    height: 10vh;
+    max-height: 70px;
+    min-height: 40px;
+}
+.header_icon{
+    padding: 20px;
+
+}
