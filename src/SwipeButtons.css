@@ -7,8 +7,6 @@
     z-index: 100;
     width: 100%;
     font-size: 4em;
-
-
 }
 .SwipeButtons .MuiIconButton-root{
     font-size: inherit;
@@ -40,7 +38,7 @@
  
     color: yellow;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
     .SwipeButtons .MuiIconButton-root{
         justify-content: none;
         /* margin-left: -20vw;
@@ -48,6 +46,13 @@
     }
     .SwipeButtons{
         width: 50%;
-    left:25%;
+        left:25%;
+      
     }
 }  
+@media only screen and (max-width: 800px) {
+    .SwipeButtons{
+       
+        font-size: 8vw;
+    }
+}
